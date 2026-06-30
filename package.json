@@ -1,0 +1,26 @@
+{
+  "name": "project3-fullstackapp",
+  "version": "1.0.0",
+  "description": "Project implementing: react front end(jsx &amp; css), express API manager, postgressSQL database, multiple front containers &amp; 1 server container with docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AldebaranFox/Project3-FullStackApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AldebaranFox/Project3-FullStackApp/issues"
+  },
+  "homepage": "https://github.com/AldebaranFox/Project3-FullStackApp#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "knex": "^3.3.0",
+    "pg": "^8.22.0"
+  }
+}
