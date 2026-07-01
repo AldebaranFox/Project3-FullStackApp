@@ -5,10 +5,13 @@
 exports.seed = async function(knex) {
   await knex('Trigonometric').del()
   await knex('Trigonometric').insert([
-    {function: 'rowValue1'},
-    {function: 'rowValue2'},
-    {function: 'rowValue2'},
-    {function: 'rowValue2'},
-    {function: 'rowValue3'}
+    {function: 'sin(x)'},
+    {function: 'cos(x)'},
+    {function: 'tan(x)'},
+    {function: 'sec(x)'},
+    {function: 'arcsin(x)'},
+    {function: 'sin(x)/x'},
+    {function: '(e^x)cos(x)'},
+    {function: '2arctan(e^x)-pi/2'}
   ]);
 };

@@ -5,10 +5,8 @@
 exports.seed = async function(knex) {
   await knex('Exponential').del()
   await knex('Exponential').insert([
-    {function: 'rowValue1'},
-    {function: 'rowValue2'},
-    {function: 'rowValue2'},
-    {function: 'rowValue2'},
-    {function: 'rowValue3'}
+    {function: 'e^x'},
+    {function: '-2^x'},
+    {function: '3^(-x)'}
   ]);
 };

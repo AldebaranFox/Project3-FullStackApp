@@ -4,7 +4,9 @@
   "description": "Project implementing: react front end(jsx &amp; css), express API manager, postgressSQL database, multiple front containers &amp; 1 server container with docker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resetServer": "knex migrate:rollback && knex migrate:latest && knex seed:run && node api.js",
+    "runServer": "node api.js"
   },
   "repository": {
     "type": "git",
